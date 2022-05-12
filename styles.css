@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+#nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#nav-bar a:hover {
+  background: lightseagreen;
+  border-radius: 4px;
+}
+
+/* Home Section */
+
+#home {
+  background-image: url(./pics/lb.jpg);
+  background-size: 100% 100%;
+}
+
+.hh {
+  font-family: "Rubik Wet Paint", cursive;
+}
+
+/* Skills Section */
+.icons {
+  border: 5px solid;
+  background-color: gray;
+  color: white;
+  font-size: 6rem;
+  height: 12rem;
+  width: 12rem;
+  text-align: center;
+  position: relative;
+}
+
+.ih {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.icons:hover .ih {
+  opacity: 1;
+}
