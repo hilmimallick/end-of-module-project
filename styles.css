@@ -35,6 +35,12 @@
   font-family: "Rubik Wet Paint", cursive;
 }
 
+/* About Section */
+#ap {
+  height: 300px;
+  width: 250px;
+}
+
 /* Skills Section */
 .icons {
   border: 5px solid;
@@ -68,5 +74,31 @@
 }
 
 .icons:hover .ih {
+  opacity: 1;
+}
+
+/* projects section */
+.pi {
+  position: relative;
+}
+.pro {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 50%,
+    rgba(0, 0, 0, 0.9) 50%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.pi:hover .pro {
   opacity: 1;
 }
