@@ -43,12 +43,10 @@
 
 /* Skills Section */
 .icons {
-  border: 5px solid;
-  background-color: gray;
   color: white;
-  font-size: 6rem;
-  height: 12rem;
-  width: 12rem;
+  font-size: 10rem;
+  height: 16rem;
+  width: 14rem;
   text-align: center;
   position: relative;
 }
@@ -56,7 +54,7 @@
 .ih {
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.9) 0%,
     rgba(0, 0, 0, 0) 100%
   );
   color: white;
@@ -100,5 +98,30 @@
   transition: all 0.3s linear;
 }
 .pi:hover .pro {
+  opacity: 1;
+}
+/* Testimonials Section */
+.card {
+  position: relative;
+}
+.card-img-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.6) 50%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.card:hover .card-img-overlay {
   opacity: 1;
 }
