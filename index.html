@@ -12,12 +12,17 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+     
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap"
       rel="stylesheet"
     />
+    
     <script
       src="https://kit.fontawesome.com/e6061f27ac.js"
       crossorigin="anonymous"
@@ -61,7 +66,7 @@
     <section id="home" class="min-vh-100 text-white d-flex justify-content-center align-items-center">
       
         <div class="hh">
-          <h1 class="hh">HI, I'm <span class="text-primary">Hilmi Mallick</span></h1>
+          <h1 class="hh">HI, I'm <span class="text-primary hh">Hilmi Mallick</span></h1>
           <h2 class="hh">An Aspiring Web Developer</h2>
         </div>
       </div>
@@ -76,60 +81,58 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
-            <div class="py-3 ps-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex justify-content-center pb-3">
               <img
                 class="img-fluid rounded border border-light border-3"
                 id="ap"
                 src="./pics/Hilmi (1).JPG"
               />
             </div>
-            <div>
-              <ul>
-                <li class="d-flex">
-                  <span>D.O.B</span>
-                  <p class="ps-5 pe-2">:</p>
-                  <span>07/01/2000</span>
-                </li>
-              </ul>
+              </div>
+
+              <div class="col-md-6">
+                
+               <table class="table table-borderless text-white d-flex justify-content-center">
+               
+           <tbody>
+            <tr>
+            <th>D.O.B:</th>
+             <td>07/01/2000</td>
+    
+             </tr>
+           <tr>
+             <th>Country:</th>
+            <td>South Africa</td>
+     
+             </tr>
+                <tr>
+                  <th>Location:</th>
+                <td>Cape Town</td>
+      
+                  </tr>
+                <tr>
+             <th>E-mail:</th>
+               <td>hilmi09mallick@gmail.com</td>
+      
+              </tr>
+
+                 <tr>
+                <th>Phone:</th>
+                  <td>0845844295</td>
+      
+                 </tr>
+
+   
+            </tbody>
+               </table>
+            
+              </div>
             </div>
-            <div>
-              <ul>
-                <li class="d-flex">
-                  <span>Country</span>
-                  <p class="ps-4 pe-2">:</p>
-                  <span>South Africa</span>
-                </li>
-              </ul>
+            
             </div>
-            <div>
-              <ul>
-                <li class="d-flex">
-                  <span>Location</span>
-                  <p class="ps-3 pe-2">:</p>
-                  <span>Cape Town</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li class="d-flex">
-                  <span>E-mail</span>
-                  <p class="ps-3 pe-2">:</p>
-                  <span>hilmi09mallick@gmail.com</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li class="d-flex">
-                  <span>Phone</span>
-                  <p class="ps-3 pe-2">:</p>
-                  <span>0845844295</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6 d-flex justify-content-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
             eligendi numquam alias eveniet laboriosam beatae nulla qui soluta ex
             cupiditate adipisci eos harum vel placeat error quis tempore. Vel
@@ -137,6 +140,8 @@
             nesciunt animi.
           </div>
         </div>
+
+        
       </div>
     </section>
 
@@ -151,10 +156,9 @@
         <h1>Skills</h1>
       </div>
       <div
-        class="container-fluid d-flex text-align-center justify-content-center gap-5"
-      >
+        class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex text-align-center justify-content-center">
             <div class="icons border border-5 border-light rounded">
               <i class="fa-brands fa-html5"></i>
               <div class="ih">
@@ -163,7 +167,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex text-align-center justify-content-center">
             <div class="py-5">
                <div class="icons border border-5 border-light rounded">
               <i class="fa-brands fa-css3"></i>
@@ -175,7 +179,7 @@
            
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex text-align-center justify-content-center">
             <div class="icons border border-5 border-light rounded">
               <i class="fa-brands fa-bootstrap"></i>
               <div class="ih">
@@ -194,13 +198,14 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 pb-3">
+          <div class="col-md-4 d-flex justify-content-center p-1">
             <div class="pi">
               <img
+               id="propic"
                 class="img-fluid rounded"
                 src="./pics/Screenshot 2022-05-11 224438.png"
               />
-              <div class="pro fw-bold text-white fs-3 ps-4 pb-3">
+              <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
                 <p>Calculator made with only HTML and CSS</p>
                 <div>
                   <a
@@ -220,13 +225,14 @@
             </div>
           </div>
 
-          <div class="col-md-4 pb-3">
+          <div class="col-md-4 d-flex justify-content-center p-1">
             <div class="pi">
               <img
+              id="propic"
                 class="img-fluid rounded"
                 src="./pics/Screenshot 2022-05-11 224559.png"
               />
-              <div class="pro fw-bold text-white fs-5 ps-4 pb-1">
+              <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
                 <p>Bootstrap restuarant webpage with booking section</p>
                 <div>
                   <a
@@ -246,13 +252,14 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 d-flex justify-content-center p-1">
             <div class="pi">
               <img
+               id="propic"
                 class="img-fluid rounded"
                 src="./pics/Screenshot 2022-05-11 224658.png"
               />
-              <div class="pro fw-bold text-white fs-3 ps-4 pb-3">
+              <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
                 <p>My holiday destination with a contact/booking section</p>
                 <div>
                   <a
@@ -276,70 +283,78 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="min-vh-100 bg-dark text-light">
-         <div class="d-flex justify-content-center fw-bolder text-uppercase py-5">
-          <h1>Testimonials</h1>
-        </div>
+   <section id="testimonials" class="min-vh-100">
+      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 ">
+        <h1>Testimonials</h1>
+      </div>
       <div class="container-fluid">
-     
         <div class="row">
-          <div class="col-md-3">
-           
-             <div class="card bg-dark text-white border border-5 border-light">
-  <img src="./pics/Ashwin (2).JPG" class="card-img">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Ashwin Dean</h5>
-    <p class="card-text">Colleague</p>
-    <p class="card-text  lead">"I would like to formally recommend Hilmi Mallick for his consistent work.
+          <div class="col-md-3 d-flex justify-content-center p-1">
+            <div class="friend">
+             <img class="img-fluid rounded" src="./pics/Ashwin (2).JPG" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Ashwin Dean</h5>
+                <p>Colleague</p>
+                <p>"I would like to formally recommend Hilmi Mallick for his consistent work.
 His time driven and helps his peers in class.
 His always focused when doing his work and keeps track of his steps for planning a website.
 I know that Hilmi Mallick has the potential and skills to be an excellent addition to the company."</p>
     <p>ashwin.dean21@gmail.com</p>
-  </div>
-</div>
-           
+             </div>
+            </div>
           </div>
 
-          <div class="col-md-3">
-              <div class="card bg-dark text-white border border-5 border-light">
-  <img src="./pics/Lihle (1).JPG" class="card-img">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Lihle Goliath</h5>
-    <p class="card-text">Colleague</p>
-    <p class="card-text  lead">"Hilmi Mallick,
+          <div class="col-md-3 d-flex justify-content-center p-1">
+             <div class="friend">
+             <img class="img-fluid rounded" src="./pics/Lihle (1).JPG" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Lihle Goliath</h5>
+                <p>Colleague</p>
+                <p>"Hilmi Mallick,
 A down to earth person with great ambitions also supporting him is his hardwork in all aspects of his life. I think with his dedication he will better himself and people around him."</p>
     <p>lihlegoliath2@gmail.com</p>
-  </div>
-</div>
+             </div>
+            </div>
           </div>
-         
-               <div class="col-md-3">
-              <div class="card bg-dark text-white border border-5 border-light">
-  <img src="./pics/Lunga (1).JPG" class="card-img">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Lunga Booi</h5>
-    <p class="card-text">Colleague</p>
-    <p class="card-text  lead">"Hilmi is a curious person, he search the information from the core. He breaks the complex problem into a simplest form. He got a great analytical skills.
-"</p>
-    <p>lungalucasbooi@gmail.com</p>
-  </div>
-</div>
+
+          <div class="col-md-3 d-flex justify-content-center p-1">
+              <div class="friend">
+             <img class="img-fluid rounded" src="./pics/Lunga (1).JPG" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Lunga Booi</h5>
+                <p>Colleague</p>
+                <p>"Hilmi is a curious person, he search the information from the core. He breaks the complex problem into a simplest form. He got a great analytical skills."</p>
+        <p>lungalucasbooi@gmail.com</p>
+             </div>
+            </div>
           </div>
-          
-          <div class="col-md-3">
-             <div class="card text-white border border-5 border-light">
-  <img src="./pics/Tshimologo (2).JPG" class="card-img">
-  <div class="card-img-overlay">
-    <h5 class="card-title">Tshimologo King Mabena</h5>
-    <p class="card-text">Colleague</p>
-    <p class="card-text  lead">"Hilmi is a very energetic, hardworking, disciplined and talented young man. He strives to improve himself consistently and those he comes into contact with. He is kind, polite, humble and very attentive to every detail. He has good intuition and sense of awareness of all tasks at hand."</p>
+
+
+          <div class="col-md-3 d-flex justify-content-center p-1">
+              <div class="friend">
+             <img class="img-fluid rounded" src="./pics/Tshimologo (2).JPG" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Tshimologo King Mabena</h5>
+                <p>Colleague</p>
+                <p>"Hilmi is a very energetic, hardworking, disciplined and talented young man. He strives to improve himself consistently and those he comes into contact with. He is kind, polite, humble and very attentive to every detail. He has good intuition and sense of awareness of all tasks at hand."</p>
     <p>tshimologokingmabena@gmail.com</p>
-  </div>
-</div>
+             </div>
+            </div>
           </div>
+
+
+
+
+
+
         </div>
+
+        
       </div>
-    </section>
+     
+      
+     
+   </section>
 
     <!-- Contact Section -->
     <section id="contact" class="min-vh-100 bg-light text-dark d-flex justify-content-center">
@@ -357,6 +372,7 @@ A down to earth person with great ambitions also supporting him is his hardwork 
             <div class="d-flex justify-content-center">call me on:</div>
             <div class="d-flex justify-content-center">+27 845844295</div>
           </div>
+
           <div class="col-md-4">
             <div class="d-flex justify-content-center fs-1 pb-2">
                <i class="fa-solid fa-location-dot"></i>
@@ -376,17 +392,20 @@ A down to earth person with great ambitions also supporting him is his hardwork 
           </div>
         </div>
 
+        <form action="https://formspree.io/f/mgednobw" method="POST">
         <div>
-          <form action="https://formspree.io/f/mgednobw" method="POST">
             <div class="py-4 ">
     <input required type="text" class="form-control border border-3 border-primary rounded-pill"  placeholder="Your name"  aria-describedby="name">
   </div>
+
   <div class="pb-4">
     <input required type="email" class="form-control border border-3 border-primary rounded-pill"  placeholder="Your E-mail"  aria-describedby="emailHelp">
   </div>
+
   <div class="pb-4">
     <input required type="number" class="form-control border border-3 border-primary rounded-pill"  placeholder="Phone number"  aria-describedby="phone number">
   </div>
+
   <div class="pb-4">
             <textarea
               class="form-control border border-3 border-primary rounded"
@@ -398,26 +417,31 @@ A down to earth person with great ambitions also supporting him is his hardwork 
           </div>
 
           <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-light w-25 border border-3 border-primary rounded-pill bg-primary fw-bolder text-white ">SEND MESSAGE</button>
+            <button type="submit" class="btn btn-light border border-3 border-primary rounded-pill bg-primary fw-bolder text-white ">SEND MESSAGE</button>
           </div>
 
          
-          </form>
         </div>
+      </form>
 
 
          
         
       </div>
       </div>
-     
+      
     </section>
 
     <!-- Footer -->
+     <footer>
+           <p>Copyright. All rights reserved</p>
+         </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    
+    
   </body>
 </html>

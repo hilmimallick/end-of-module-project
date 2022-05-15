@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: cursive;
 }
 
 /* Navbar */
@@ -38,8 +39,8 @@
 
 /* About Section */
 #ap {
-  height: 300px;
-  width: 250px;
+  height: 320px;
+  width: 280px;
 }
 
 /* Skills Section */
@@ -77,9 +78,17 @@
 }
 
 /* projects section */
+#propic {
+  height: 400px;
+  width: 300px;
+}
+
 .pi {
   position: relative;
+  height: 400px;
+  width: 300px;
 }
+
 .pro {
   background: linear-gradient(
     to top,
@@ -101,33 +110,51 @@
 .pi:hover .pro {
   opacity: 1;
 }
+
 /* Testimonials Section */
-.card {
-  position: relative;
+#testpic {
+  height: 400px;
+  width: 300px;
 }
-.card-img-overlay {
+.friend {
+  position: relative;
+  height: 400px;
+  width: 300px;
+}
+
+.friend-details {
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.9) 50%,
-    rgba(0, 0, 0, 0.9) 50%
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0.7) 50%
   );
+  color: white;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   opacity: 0;
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
 }
-.card:hover .card-img-overlay {
+
+.friend:hover .friend-details {
   opacity: 1;
 }
 
 /* Contact section */
 .fa-solid {
   color: rgb(27, 159, 211);
+}
+
+footer {
+  height: 4rem;
+  width: 100%;
+  background-color: #0d6efd;
+  text-align: center;
+  font-size: 20px;
 }
