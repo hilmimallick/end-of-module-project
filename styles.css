@@ -34,7 +34,7 @@
 
 .hh {
   font-family: "Rubik Wet Paint", cursive;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 /* About Section */
@@ -149,6 +149,19 @@
 /* Contact section */
 .fa-solid {
   color: rgb(27, 159, 211);
+}
+
+#button {
+  background-color: transparent;
+  border: 3px solid rgb(27, 159, 211);
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: rgb(27, 159, 211);
+}
+#button:hover {
+  box-shadow: 0 0 10px 0 rgb(27, 159, 211) inset, 0 0 20px 2px rgb(27, 159, 211);
+  border: 3px solid rgb(27, 159, 211);
 }
 
 footer {
