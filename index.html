@@ -49,13 +49,13 @@
             id="nav-links"
           >
             <div class="navbar-nav">
-              <a class="nav-link" href="#home">Home</a>
-              <a class="nav-link" href="#about">About</a>
-              <a class="nav-link" href="#resume">Resume</a>
-              <a class="nav-link" href="#skills">Skills</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#testimonials">Testimonials</a>
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link text-primary" href="#home">Home</a>
+              <a class="nav-link text-primary" href="#about">About</a>
+              <a class="nav-link text-primary" href="#resume">Resume</a>
+              <a class="nav-link text-primary" href="#skills">Skills</a>
+              <a class="nav-link text-primary" href="#projects">Projects</a>
+              <a class="nav-link text-primary" href="#testimonials">Testimonials</a>
+              <a class="nav-link text-primary" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -73,8 +73,8 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="min-vh-100 bg-dark text-light">
-      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5">
+    <section id="about" class="min-vh-100 bg-ligt  text-dark">
+      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 text-primary">
         <h1>About Me</h1>
       </div>
 
@@ -94,7 +94,7 @@
 
               <div class="col-md-6">
                 
-               <table class="table table-borderless text-white d-flex justify-content-center">
+               <table class="table table-borderless  d-flex justify-content-center">
                
            <tbody>
             <tr>
@@ -143,11 +143,11 @@
     </section>
 
     <!-- Work and Education Section -->
-     <section id="resume" class="min-vh-100 bg-light text-dark">
+     <section id="resume" class="min-vh-100 bg-light text-dark pt-5">
         <div class="container-fluid">
            
-                <div class="d-flex justify-content-center"><h1>Resume</h1></div>
-                <div class="d-flex justify-content-center p-3"><h3>Education</h3></div>
+                <div class="d-flex justify-content-center text-primary"><h1>Resume</h1></div>
+                <div class="d-flex justify-content-center p-3 text-primary"><h3>Education</h3></div>
 
                 <div class="row">
                     <div class="col-md-3 d-flex justify-content-center p-1">
@@ -191,14 +191,14 @@
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center p-4" ><h3>Work/Volunteer</h3></div>
+                <div class="d-flex justify-content-center p-2 text-primary" ><h3>Work/Volunteer</h3></div>
                 <div class=" d-flex justify-content-center p-2">
                     <div class="card border-info  border-3  h-100" style="max-width: 18rem;">
                         <div class="card-header">Parkrun</div>
                         <div class="card-body">
                           <h5 class="card-title">2014- present</h5>
                           <p class="card-text">Every Saturday morning at 8AM I do a 5KM run and sometimes I use my spare time volunteering. </p>
-                          <button class="btn btn-primary" type="button">press me</button>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">press me</button>
                         </div>
                       </div>
                 </div>
@@ -207,15 +207,15 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="min-vh-100 bg-dark text-light">
-      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5">
+    <section id="skills" class="min-vh-100 bg-light text-dark">
+      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 text-primary">
         <h1>Skills</h1>
       </div>
       <div
         class="container-fluid">
         <div class="row">
           <div class="col-md-4 d-flex text-align-center justify-content-center">
-            <div class="icons border border-5 border-light rounded">
+            <div class="icons border border-5 border-dark rounded bg-dark">
               <i class="fa-brands fa-html5"></i>
               <div class="ih">
                 <h3>HTML5</h3>
@@ -225,7 +225,7 @@
 
           <div class="col-md-4 d-flex text-align-center justify-content-center">
             <div class="py-5">
-               <div class="icons border border-5 border-light rounded">
+               <div class="icons border border-5 border-dark rounded bg-dark">
               <i class="fa-brands fa-css3"></i>
               <div class="ih">
                 <h3>CSS</h3>
@@ -236,7 +236,7 @@
           </div>
 
           <div class="col-md-4 d-flex text-align-center justify-content-center">
-            <div class="icons border border-5 border-light rounded">
+            <div class="icons border border-5 border-dark rounded bg-dark">
               <i class="fa-brands fa-bootstrap"></i>
               <div class="ih">
                 <h3>BOOTSTRAP</h3>
@@ -249,16 +249,16 @@
 
     <!-- Projects Section -->
     <section id="projects" class="min-vh-100  bg-light text-dark">
-      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5">
+      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 text-primary">
         <h1>Projects</h1>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 d-flex justify-content-center p-1">
+          <div class="col-md-4 d-flex justify-content-center p-1 ">
             <div class="pi">
               <img
                id="propic"
-                class="img-fluid rounded"
+                class="img-fluid rounded border border-5 border-dark"
                 src="./pics/Screenshot 2022-05-11 224438.png"
               />
               <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
@@ -285,7 +285,7 @@
             <div class="pi">
               <img
               id="propic"
-                class="img-fluid rounded"
+                class="img-fluid rounded border border-5 border-dark"
                 src="./pics/Screenshot 2022-05-11 224559.png"
               />
               <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
@@ -312,7 +312,7 @@
             <div class="pi">
               <img
                id="propic"
-                class="img-fluid rounded"
+                class="img-fluid rounded border border-5 border-dark"
                 src="./pics/Screenshot 2022-05-11 224658.png"
               />
               <div class="pro fw-bold text-white fs-3 ps-4 pb-3 rounded">
@@ -340,14 +340,14 @@
 
     <!-- Testimonials Section -->
    <section id="testimonials" class="min-vh-100">
-      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 ">
+      <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 text-primary ">
         <h1>Testimonials</h1>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 d-flex justify-content-center p-1">
+          <div class="col-md-4 d-flex justify-content-center p-1">
             <div class="friend">
-             <img class="img-fluid rounded" src="./pics/Ashwin (2).JPG" id="testpic">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/Ashwin (2).JPG" id="testpic">
              <div class="friend-details rounded">
                <h5>Ashwin Dean</h5>
                 <p>Colleague</p>
@@ -360,9 +360,9 @@ I know that Hilmi Mallick has the potential and skills to be an excellent additi
             </div>
           </div>
 
-          <div class="col-md-3 d-flex justify-content-center p-1">
+          <div class="col-md-4 d-flex justify-content-center p-1">
              <div class="friend">
-             <img class="img-fluid rounded" src="./pics/Lihle (1).JPG" id="testpic">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/Lihle (1).JPG" id="testpic">
              <div class="friend-details rounded">
                <h5>Lihle Goliath</h5>
                 <p>Colleague</p>
@@ -373,9 +373,9 @@ A down to earth person with great ambitions, also supporting him is his hardwork
             </div>
           </div>
 
-          <div class="col-md-3 d-flex justify-content-center p-1">
+          <div class="col-md-4 d-flex justify-content-center p-1">
               <div class="friend">
-             <img class="img-fluid rounded" src="./pics/Lunga (1).JPG" id="testpic">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/Lunga (1).JPG" id="testpic">
              <div class="friend-details rounded">
                <h5>Lunga Booi</h5>
                 <p>Colleague</p>
@@ -386,9 +386,13 @@ A down to earth person with great ambitions, also supporting him is his hardwork
           </div>
 
 
-          <div class="col-md-3 d-flex justify-content-center p-1">
+       
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 d-flex justify-content-center p-1">
               <div class="friend">
-             <img class="img-fluid rounded" src="./pics/Tshimologo (2).JPG" id="testpic">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/Tshimologo (2).JPG" id="testpic">
              <div class="friend-details rounded">
                <h5>Tshimologo King Mabena</h5>
                 <p>Colleague</p>
@@ -397,14 +401,70 @@ A down to earth person with great ambitions, also supporting him is his hardwork
              </div>
             </div>
           </div>
+
+
+           <div class="col-md-4 d-flex justify-content-center p-1">
+              <div class="friend">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/Carla (2).JPG" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Carla Lawrence</h5>
+                <p>Colleague</p>
+                <p>"Hilmi Malllick is an exceptional web developer. He is laser focused, highly skilled and determined to take on any task given to him. His ambition bleeds into all aspects of his life both personal and professional. It is a pleasure to have worked alongside him and I can, without a doubt, say that Hilmi would be the perfect addition to any team."</p>
+    <p>carlaamylawrence@gmail.com</p>
+             </div>
+            </div>
+          </div>
+
+
+
+           <div class="col-md-4 d-flex justify-content-center p-1">
+              <div class="friend">
+             <img class="img-fluid rounded border border-5 border-dark" src="./pics/WhatsApp Image 2022-05-11 at 4.16.12 PM.jpeg" id="testpic">
+             <div class="friend-details rounded">
+               <h5>Jason Wandrag</h5>
+                <p>lecturer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quibusdam sed rerum aperiam! Illo, qui.</p>
+    <p>jason@lifechoices.co.za</p>
+             </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="min-vh-100 bg-light text-dark d-flex justify-content-center">
       <div class="w-50">
-         <div class="d-flex justify-content-center fw-bolder text-uppercase py-5">
+         <div class="d-flex justify-content-center fw-bolder text-uppercase py-5 text-primary">
         <h1>Contact Me</h1>
       </div>
       <div class="container-fluid">
@@ -462,7 +522,7 @@ A down to earth person with great ambitions, also supporting him is his hardwork
           </div>
 
           <div class="d-flex justify-content-center pb-5">
-            <button id="button" type="submit" class="btn   text-primary text-bolder">SEND MESSAGE</button>
+            <button id="button" type="submit" class="btn   text-bolder">SEND MESSAGE</button>
           </div>
 
          
@@ -481,6 +541,28 @@ A down to earth person with great ambitions, also supporting him is his hardwork
      <footer>
            <p>Copyright. All rights reserved</p>
          </footer>
+
+         <!-- Modal for resume section -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">My satus of 2022/05/17</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-dark">
+       <img class="img-fluid" src="./pics/IMG_20220516_212648.png">
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
